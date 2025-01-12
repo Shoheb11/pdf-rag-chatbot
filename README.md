@@ -36,3 +36,16 @@ This project is a Streamlit-based application that lets users upload PDF files a
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name ```
+2. Install dependencies:
+```bash
+
+pip install -r requirements.txt ```
+3. Set up your Google API Key:
+
+```bash
+export GOOGLE_API_KEY="your-google-api-key" ```
+4.Run the application:
+
+```bash
+
+streamlit run rag_app.py ```
